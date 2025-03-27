@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Fluffy",
+        "upcoming": "9:00pm",
+        "next": "7:00am",
+        "previous": "12:30pm",
+        "image": "gecko.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Spike",
+        "upcoming": "9:00pm",
+        "next": "7:00am",
+        "previous": "12:30pm",
+        "image": "spike.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mr. Whiskers",
+        "upcoming": "9:00pm",
+        "next": "7:00am",
+        "previous": "12:30pm",
+        "image": "pedro.jpg"
+    }
+]
