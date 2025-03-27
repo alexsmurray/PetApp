@@ -2,21 +2,36 @@
     {
         "id": 1,
         "name": "Fluffy",
-        "checkList": "Mold",
+        "checkList": {
+            "item1": "Mold",
+            "item2": "Humidity",
+            "item3": "Plants",
+            "item4": "Water"
+        },
         "next": "3/30/2025",
         "previous": "2/30/2025"
     },
     {
         "id": 2,
         "name": "Spike",
-        "checkList": "Filters",
+        "checkList":{
+            "item1": "Mold",
+            "item2": "Plants",
+            "item3": "Water",
+            "item4": "Invaders"
+        },
         "next": "3/30/2025",
         "previous": "2/30/2025"
     },
     {
         "id": 3,
         "name": "Mr. Whiskers",
-        "checkList": "Water",
+        "checkList": {
+            "item1": "Filters",
+            "item2": "Mold",
+            "item3": "Plants",
+            "item4": "Water"
+        },
         "next": "3/30/2025",
         "previous": "2/30/2025"
     }

@@ -19,8 +19,20 @@
         <h2>Check List</h2>
         <label>
             <input type="checkbox">
-                {{ enclosure.checkList }}
-            </label>
+                {{ enclosure.checkList.item1 }}
+        </label>
+        <label>
+            <input type="checkbox">
+                {{ enclosure.checkList.item2 }}
+        </label>
+        <label>
+            <input type="checkbox">
+                {{ enclosure.checkList.item3 }}
+        </label>
+        <label>
+            <input type="checkbox">
+                {{ enclosure.checkList.item4 }}
+        </label>
         <h2>Next Cleaning</h2>
         <p>{{ enclosure.next }}</p>
         <h2>Previous Cleaning</h2>
@@ -36,6 +48,6 @@
 <style scoped>
     .grid {
         display: grid;
-        gap: 30px;
+        gap: 20px;
     }
 </style>
